@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Section Styles */
+section {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+section h2 {
+  margin-top: 0;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  margin: 5px 0;
+}
+form input, form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #007bff;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
